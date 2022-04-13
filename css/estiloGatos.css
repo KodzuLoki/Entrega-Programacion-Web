@@ -1,0 +1,31 @@
+.imagen {
+    width: 50%;
+
+    border: 5px solid blue;
+}
+
+.contenido{
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: xx-large;
+}
+img{
+    width: 25%;
+}
+.Maincoon{
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: xx-large;
+    
+}
+.Persacon{
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: xx-large;
+
+}
+.Siamescon{
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: xx-large;
+}
