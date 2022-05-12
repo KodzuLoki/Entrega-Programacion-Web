@@ -19,7 +19,7 @@ body {
     color: black;
 }
  
-.principal iframe {
+.principal object {
     margin: 0 auto; 
     display:block;
     background-color: rgb(179, 157, 214);
