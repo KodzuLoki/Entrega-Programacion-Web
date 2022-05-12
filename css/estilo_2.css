@@ -12,15 +12,18 @@
 
 .header {
     background-color: tomato;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .footer {
     background-color: lightblue;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .main {
     text-align: left;
     background-color: deepskyblue;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .aside-1 {
