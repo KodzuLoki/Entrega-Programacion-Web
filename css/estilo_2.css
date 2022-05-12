@@ -1,0 +1,32 @@
+.contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedor>* {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.header {
+    background-color: tomato;
+}
+
+.footer {
+    background-color: lightblue;
+}
+
+.main {
+    text-align: left;
+    background-color: deepskyblue;
+}
+
+.aside-1 {
+    background-color: gold;
+}
+
+.aside-2 {
+    background-color: hotpink;
+}
