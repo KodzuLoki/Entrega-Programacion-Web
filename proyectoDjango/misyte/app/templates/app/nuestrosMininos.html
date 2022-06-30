@@ -1,0 +1,140 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'app/css/galeria.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/estilo_2.css' %}">
+{% endblock %}
+
+
+{% block contenido %}
+
+        <!-- Galeria completa de todas las imagenes -->
+
+        <body>
+            <h1 class="titulo"> <u>Galeria de fotos de gatos</u></h1>
+            <div class="contenedor-galeria">
+                <div class="texto1">
+                    <!-- encabezado de la foto de cada gato -->
+                    <div class="encabezado">
+                        <p>Gato felix</p>
+                    </div>
+
+                    <!-- imagen de gato -->
+
+                    <img src="{% static 'app/img/elgatou.jpg' %}" alt="" class="galeria__img">
+                    <div class="letras">
+
+                        <!-- pequeña descripcion de cada gato -->
+
+                        <h6>
+                            Este gato se empeña en,
+                        </h6>
+                        <h6>
+                            dar amor a cada humano que
+                        </h6>
+                        <h6>
+                            le pueda dedicar amor y tiempo.
+                        </h6>
+                    </div>
+                </div>
+
+                <div class="texto2">
+                    <div class="encabezado">
+                        <p>Gato Mario</p>
+                    </div>
+                    <img src="{% static 'app/img/gatocamara.jpg' %}" alt="" class="galeria__img">
+                    <div class="letras">
+                        <h6>
+                            Este gato se caracteriza en
+                        </h6>
+                        <h6>
+                            ser extremadamente travieso
+                        </h6>
+                        <h6>
+                            y muy curioso.
+                        </h6>
+                    </div>
+                </div>
+
+                <div class="texto3" style="text-align: center;">
+                    <div class="encabezado">
+                        <p>Gato Oliver</p>
+                    </div>
+                    <img src="{% static 'app/img/gatodepana.jpg' %}" alt="" class="galeria__img">
+                    <div class="letras">
+                        <h6>
+                            Un gato muy flojo que le
+                        </h6>
+                        <h6>
+                            gusta pasar tiempo en casa durmiendo
+                        </h6>
+                    </div>
+                </div>
+
+                <div class="texto4">
+                    <div class="encabezado">
+                        <p>Gato Tiger</p>
+                    </div>
+                    <img src="{% static 'app/img/gatoleon.jpg' %}" alt="" class="galeria__img">
+                    <div class="letras">
+                        <h6>
+                            Es un gato netamente con unas
+                        </h6>
+                        <h6>
+                            caracterizticas muy llamativas en su
+                        </h6>
+                        <h6>
+                            pelaje en forma de leopardo.
+                        </h6>
+                    </div>
+                </div>
+
+                <div class="texto5">
+                    <div class="encabezado">
+                        <p>Gato Toby</p>
+                    </div>
+                    <img src="{% static 'app/img/gatoreja.jpg' %}" alt="" class="galeria__img">
+                    <div class="letras">
+                        <h6>
+                            Es un gato que
+                        </h6>
+                        <h6>
+                            frecuentemente es muy activo
+                        </h6>
+                    </div>
+                </div>
+
+                <div class="texto6">
+                    <div class="encabezado">
+                        <p>Gato Copo de nieve</p>
+                    </div>
+                    <img src="{% static 'app/img/gatonieve.jpg' %}" alt="" class=galeria__img>
+                    <div class="letras">
+                        <h6>
+                            Es un gato con una cualidad que
+                        </h6>
+                        <h6>
+                            se caracteriza por tener un pelaje
+                        </h6>
+                        <h6>
+                            sumamente blanco y llamativo
+                        </h6>
+                    </div>
+                </div>
+
+                {% endblock %}
+
+                {% block js %}
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+                
+                {% endblock %}
